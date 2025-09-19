@@ -36,10 +36,8 @@ if CORS_ORIGINS:
 else:
     # Defaults for your setup: local dev, LAN, tailscale
     ALLOW_ORIGINS = [
-        "http://localhost:3000", "http://127.0.0.1:3000",
-        "http://localhost:3001", "http://127.0.0.1:3001",
-        "http://192.168.1.187", "http://192.168.1.187:3000", "http://192.168.1.187:3001",
-        "http://100.105.15.125:3000", "http://100.105.15.125:3001",  # tailscale current
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
     ]
 
 # ------------------ App & Clients ------------------
