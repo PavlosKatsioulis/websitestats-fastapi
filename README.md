@@ -1,4 +1,4 @@
-# WebsiteStats Backend (FastAPI) — Public Endpoints Only
+# WebsiteStats Backend (FastAPI) — Endpoints Only
 
 This repository contains **only the FastAPI/Python endpoint code** for evaluation purposes.  
 It **does not include** the full Dockerized infrastructure (Elasticsearch, Redis, MySQL, Frontend, Indexer, Kibana) nor any real data or credentials.
