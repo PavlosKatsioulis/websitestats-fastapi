@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+myenv/
+
+# Env & secrets
+.env
+.env.*
+*.pem
+*.key
+*credentials*.json
+*service*.json
+*-range-*.json
+*.p12
+
+# DB & data dumps
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Backups / temp
+requirements.bak.*
+req.scan.txt
+structure.txt
+
+# Images (κρατάμε μόνο docs/)
+images/
+!docs/images/
