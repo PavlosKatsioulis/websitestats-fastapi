@@ -16,7 +16,6 @@ from jose import JWTError, jwt
 from kpi import router as kpi_router
 from search_api import router as search_router
 from troubleshooting_docs import router as docs_router
-from sheet_data import router as sheet_router
 from installations import router as installations_router
 from notifications import router as notifications_router
 from websocket_manager import manager
@@ -70,7 +69,6 @@ redis_client = redis.from_url(REDIS_URL, decode_responses=True)
 # ------------------ Routers ------------------
 app.include_router(search_router)
 app.include_router(docs_router)
-app.include_router(sheet_router)
 app.include_router(installations_router)
 app.include_router(login_router)
 app.include_router(notifications_router)
